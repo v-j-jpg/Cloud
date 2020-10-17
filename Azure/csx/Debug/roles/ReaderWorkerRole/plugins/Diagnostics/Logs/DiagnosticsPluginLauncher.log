@@ -1,0 +1,8 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] At least one other instance of the launcher is running. Will wait until they all finish
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Service running in Emulator Mode, will not wait/kill other instances of the launcher
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:11 PM] Emulator config file set to C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\ReaderWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:11 PM] DiagnosticsStoreRootPath set to: C:\Users\Lenovo\AppData\Local\dftmp\Resources\8e67d9e9-a10c-4a21-a1e1-2952d5ff3c4d
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:11 PM] Loading config file: C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\ReaderWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:11 PM] Config file to read: C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\ReaderWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:11 PM] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:11 PM] Emulator config file set to C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\ReaderWorkerRole\approot\diagnostics.wadcfgx

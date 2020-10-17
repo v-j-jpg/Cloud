@@ -1,0 +1,18 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] At least one other instance of the launcher is running. Will wait until they all finish
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Service running in Emulator Mode, will not wait/kill other instances of the launcher
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Emulator config file set to C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\LoggerWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] DiagnosticsStoreRootPath set to: C:\Users\Lenovo\AppData\Local\dftmp\Resources\7e7ad519-5e48-4b01-9047-c4ad8c93ccf9
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Loading config file: C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\LoggerWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Config file to read: C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\LoggerWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Emulator config file set to C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\LoggerWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Found a MonAgentHost.exe. WadArguments: "C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\WebRole\plugins\Diagnostics\Monitor\x64\MonAgentHost.exe" -LocalPath "C:\Users\Lenovo\AppData\Local\dftmp\Resources\311d3254-31f6-48fb-a2d0-b3382d146b6d\WAD0105"  -ConfigFile "C:\Users\Lenovo\AppData\Local\dftmp\Resources\311d3254-31f6-48fb-a2d0-b3382d146b6d\WAD0105\Configuration\MaConfig.xml" -ShutDownEvent WADDM-ShutDown-f2cfd7939ebb4a1384d2f907dc1755e6  -TotalShutDownEvent WADDM-TotalShutDown-f2cfd7939ebb4a1384d2f907dc1755e6 -InitializedEvent WADM-StartUp-f2cfd7939ebb4a1384d2f907dc1755e6 -parent 2224 -events -wadVer1v5 -UseProxyServer -XStoreAccounts WadAccount#true#devstoreaccount1#Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==#http://127.0.0.1:10002#http://127.0.0.1:10001#http://127.0.0.1:10000.
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Found a DiagnosticsPlugin.exe. WadArguments: "C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\WebRole\plugins\Diagnostics\DiagnosticsPlugin.exe" DiagnosticPlugin-ShutdownEvent DiagnosticPlugin-TotalShutdownEvent -wadVer1v5.
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Loading config file: C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\LoggerWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Config file to read: C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\LoggerWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:18:10 PM] Bypassing private config decryption

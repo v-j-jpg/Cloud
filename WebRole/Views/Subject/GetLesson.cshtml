@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Repository_Data.Lesson>
+@{
+    ViewBag.Title = "Lesson";
+}
+
+<p>GetSubjects</p>
+<p>
+    @Html.ActionLink("Create New", "AddLesson")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDLesson)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PlannedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.RowKey)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Title)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PlannedDate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Description)
+    </td>
+    <td>
+
+        @Html.ActionLink("Delete", "DeleteLesson", new { RowKey = item.RowKey })
+        @Html.ActionLink("Edit", "EditLesson", new { RowKey = item.RowKey })
+
+
+
+    </td>
+</tr>
+    }
+</table>
+@Html.ActionLink("BackToHome", "Index")

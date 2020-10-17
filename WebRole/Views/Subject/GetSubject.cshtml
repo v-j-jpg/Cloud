@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Repository_Data.Subject>
+@{
+    ViewBag.Title = "ADD"; }
+
+    <p>GetSubjects</p>
+<p>
+    @Html.ActionLink("Create New", "AddSubject")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDSubject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+    
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.RowKey)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+
+        @Html.ActionLink("Delete", "DeleteSubject", new { RowKey = item.RowKey })
+
+        @*<form method="post" action="~/Subject/EditSubject">
+            <input type="hidden" name="id" value="@item.RowKey">
+            <input type="submit" value="Edit">
+        </form>*@
+
+        @Html.ActionLink("Edit", "EditSubject", new { RowKey = item.RowKey })
+
+
+        @*<form method="get" action="~/Subject/DeleteSubject">
+            <input type="hidden" name="RowKey" value="@item.RowKey">
+            <input type="submit" value="Delete">
+        </form>*@
+
+    </td>
+
+</tr>
+    }
+</table>
+@Html.ActionLink("BackToHome","Index")

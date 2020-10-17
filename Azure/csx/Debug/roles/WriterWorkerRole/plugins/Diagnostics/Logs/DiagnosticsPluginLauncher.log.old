@@ -1,0 +1,15 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Emulator config file set to C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\WriterWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] DiagnosticsStoreRootPath set to: C:\Users\Lenovo\AppData\Local\dftmp\Resources\a54f77a7-c7e0-4587-b029-ae29f4470ef5
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Loading config file: C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\WriterWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Config file to read: C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\WriterWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Emulator config file set to C:\Users\Lenovo\source\repos\Azure\Azure\csx\Debug\roles\WriterWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [6/17/2020 9:17:01 PM] Resetting DiagnosticPlugin

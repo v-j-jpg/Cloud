@@ -1,0 +1,40 @@
+﻿@model Repository_Data.Professor
+@{
+    ViewBag.Title = "AddProfessor";
+}
+
+<h2>AddProfessor</h2>
+
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm("AddProfessor", "Subject", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+
+        <label>ID</label>
+        <div class="editor-label">
+
+            <input type="text" name="RowKey" />
+        </div>
+
+
+        <label>Name</label>
+        <div class="editor-field">
+            <input type="text" name="Name" />
+        </div>
+
+        <label>Surname</label>
+        <div class="editor-field">
+            <input type="text" name="Lastname" />
+        </div>
+
+
+        <p>
+            <input type="submit" value="AddProfessor" />
+        </p>
+    </fieldset>
+}
+@Html.ActionLink("List of Professor", "GetProfessor")
